@@ -6,12 +6,12 @@ import model.BankAccount;
 
 
 public interface BankAccountDao {
-	BankAccount addAccount(BankAccount accountPojo); // create
+	BankAccount addAccount(BankAccount bankAccount); // create
 
-	BankAccount deposit(BankAccount accountPojo, double depositAmount); // update
+	BankAccount deposit(BankAccount bankAccount, double depositAmount); // update
 
-	BankAccount withdraw (BankAccount accountPojo, double withdrawalAmount); // update
+	BankAccount withdraw (BankAccount bankAccount, double withdrawalAmount); // update
 
-	double displayBalance(BankAccount accountPojo); // read
+	double displayBalance(BankAccount bankAccount); // read
 
 }

@@ -22,10 +22,12 @@ public class BankAccountDataBaseMain {
 		UserAccountService userService = new UserAccountServiceImpl();
 
 		BankAccount bankaccount = new BankAccount();
-		System.out.println("**************************");
-		System.out.println("***Banking Application***");
-		System.out.println("*************************");
+		System.out.println("******************************************");
+		System.out.println("*********Banking Application**************");
+		System.out.println("******************************************");
 		System.out.println();
+		System.out.println("------Welcome to the Atm_Application---- ");
+		System.out.println("----------------Menu---------------------");
 
 		int option1 = 0;
 		String ch = "y";
@@ -103,7 +105,7 @@ public class BankAccountDataBaseMain {
 				while (true) {
 
 					System.out.println();
-					System.out.println("Welcome Back!!");
+					System.out.println("************Welcome Back!!****************");
 
 					char proceed = 'y';
 
@@ -111,10 +113,10 @@ public class BankAccountDataBaseMain {
 
 						System.out.println();
 
-						System.out.println("1. display balance");
-						System.out.println("2.  Deposit ");
-						System.out.println("3.  Withdraw ");
-						System.out.println("4. Exit");
+						System.out.println("************1. display balance*********");
+						System.out.println("************2.  Deposit ***************");
+						System.out.println("************3.  Withdraw **************");
+						System.out.println("************4. Exit********************");
 
 						int option2 = scan.nextInt();
 
@@ -160,8 +162,8 @@ public class BankAccountDataBaseMain {
 
 						case 4:
 
-							System.out.println("Thank you for using ***Account Management System***");
-							System.out.println("-----Program terminated-----");
+							System.out.println("Thank you for using ***Banking Application***");
+							
 							scan.close();
 							System.exit(0);
 							break;
@@ -177,6 +179,7 @@ public class BankAccountDataBaseMain {
 				System.out.println("******************************************");
 				System.out.println("***********Thank you !!!******************");
 				System.out.println("************Bank Application closed****************");
+				System.out.println("******************************************");
 				scan.close();
 				System.exit(0);
 
